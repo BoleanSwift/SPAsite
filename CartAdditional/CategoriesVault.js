@@ -1,7 +1,7 @@
 import Product from "../entities/Product.js"
 import ProductCategory from "../entities/ProductCategory.js"
 import ProductCategoryWithProducts from "../entities/ProductCategoryWithProducts.js"
-import Client from "./client.js"
+import Client from "./client.js.js"
 
 class CategoriesRepository {
     constructor(client = new Client()) {

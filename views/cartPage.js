@@ -1,4 +1,4 @@
-import {parseElementFromString} from "../parser.js"
+import {parseElementFromString} from "../Parsing.js"
 import cartListItem from './cartListItem.js'
 import emptyCart from './emptyCart.js'
 import loadingIndicator from "./loadingIndicator.js"

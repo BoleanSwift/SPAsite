@@ -1,4 +1,4 @@
-import {NoResourceFoundError} from "../error.js"
+import {NoResourceFoundError} from "../ErrorException.js"
 
 const BASE_REST_URL = "https://my-json-server.typicode.com/alreadydeadinside/GallerixSite"
 

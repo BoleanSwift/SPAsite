@@ -1,4 +1,4 @@
-import UserShipCredentials from '../entities/UserShipCredentials.js'
+import UserShipCredentials from '../Prompts/UserShipCredentials.js'
 import {parseElementFromString} from "../parser.js"
 
 // language=RegExp

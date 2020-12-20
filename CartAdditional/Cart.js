@@ -1,6 +1,6 @@
 import ProductWithRelatedProducts from "../entities/ProductWithRelatedProducts.js"
-import {NoResourceFoundError} from "../error.js"
-import Client from "./client.js"
+import {NoResourceFoundError} from "../ErrorException.js"
+import Client from "./client.js.js"
 
 class ProductsRepository {
     constructor(client = new Client()) {

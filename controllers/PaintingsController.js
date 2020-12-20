@@ -1,6 +1,6 @@
 import CartRepository from "../data/CartRepository.js"
 import ProductsRepository from "../data/ProductsRepository.js"
-import ProductState from "../entities/ProductState.js"
+import ProductState from "../Prompts/ProductState.js.js"
 import {NoResourceFoundError} from "../error.js"
 import NavDestination from "../navigation/NavDestination.js"
 import productPage from "../views/productPage.js"

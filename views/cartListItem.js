@@ -1,4 +1,4 @@
-import {parseElementFromString} from "../parser.js"
+import {parseElementFromString} from "../Parsing.js"
 
 /**
  * @param {CartProductItem} item
