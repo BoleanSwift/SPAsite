@@ -1,8 +1,8 @@
-import CartRepository from "../data/CartRepository.js"
-import ProductsRepository from "../data/ProductsRepository.js"
-import ProductState from "../Prompts/ProductState.js.js"
-import {NoResourceFoundError} from "../error.js"
-import NavDestination from "../navigation/NavDestination.js"
+import CartRepository from "../CartAdditional/CartVault.js"
+import ProductsRepository from "../CartAdditional/Cart.js"
+import ProductState from "../Prompts/ProductState.js"
+import {NoResourceFoundError} from "../ErrorException.js"
+import NavDestination from "../Nav/NavDestination.js"
 import productPage from "../views/productPage.js"
 import Controller from "./Controller.js"
 
