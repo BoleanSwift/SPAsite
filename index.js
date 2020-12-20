@@ -31,7 +31,7 @@ router.getStateObservable()
     cartRepository.getProductsCount()
         .subscribe(count => {
             if (count > 0) {
-                orderBtn.innerText = `Order ${count} pizzas`
+                orderBtn.innerText = `Add to cart ${count} paintings `
             }
             orderBtn.hidden = (count === 0)
             selectedProductsCount = count
