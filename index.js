@@ -1,7 +1,7 @@
-import CartRepository from "./CartAdditional/CartVault.js"
-import NavDestination from "./Nav/NavDestination.js"
-import Router from './Nav/router.js'
-import TemplateProcessor from './PatternProcess.js'
+import CartRepository from "./data/CartRepository.js"
+import NavDestination from "./navigation/NavDestination.js"
+import Router from './navigation/router.js'
+import TemplateProcessor from './templateProcessor.js'
 
 const {from} = rxjs
 const {switchMap} = rxjs.operators
@@ -31,7 +31,7 @@ router.getStateObservable()
     cartRepository.getProductsCount()
         .subscribe(count => {
             if (count > 0) {
-                orderBtn.innerText = `Added to cart ${count} paintings`
+                orderBtn.innerText = `Order ${count} pizzas`
             }
             orderBtn.hidden = (count === 0)
             selectedProductsCount = count

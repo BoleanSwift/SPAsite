@@ -1,7 +1,7 @@
-import Product from "../Prompts/Product.js"
-import ProductCategory from "../Prompts/ProductCategory.js"
-import ProductCategoryWithProducts from "../Prompts/ProductCategoryWithProducts.js"
-import Client from "./ClientAddToCart.js"
+import Product from "../entities/Product.js"
+import ProductCategory from "../entities/ProductCategory.js"
+import ProductCategoryWithProducts from "../entities/ProductCategoryWithProducts.js"
+import Client from "./client.js"
 
 class CategoriesRepository {
     constructor(client = new Client()) {

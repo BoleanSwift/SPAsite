@@ -1,5 +1,5 @@
-import CartItem from '../Prompts/CartItem.js'
-import CartLocalStorage from "./LocalStorage.js"
+import CartItem from '../entities/CartItem.js'
+import CartLocalStorage from "./CartLocalStorage.js"
 
 const {map} = rxjs.operators
 

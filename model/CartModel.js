@@ -1,6 +1,6 @@
-import CartRepository from "../CartAdditional/CartVault.js"
-import ProductsRepository from "../CartAdditional/Cart.js"
-import CartProductItem from "../Prompts/CartProductItem.js"
+import CartRepository from "../data/CartRepository.js"
+import ProductsRepository from "../data/ProductsRepository.js"
+import CartProductItem from "../entities/CartProductItem.js"
 
 const {map, switchMap} = rxjs.operators
 

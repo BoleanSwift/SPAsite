@@ -1,5 +1,5 @@
-import OrdersModel from '../Models/OrdersModel.js'
-import NavDestination from '../Nav/NavDestination.js'
+import OrdersModel from '../model/OrdersModel.js'
+import NavDestination from '../navigation/NavDestination.js'
 import orderPage from '../views/orderPage.js'
 import Controller from "./Controller.js"
 

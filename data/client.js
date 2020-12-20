@@ -1,6 +1,6 @@
-import {NoResourceFoundError} from "../ErrorException.js"
+import {NoResourceFoundError} from "../error.js"
 
-const BASE_REST_URL = "https://my-json-server.typicode.com/alreadydeadinside/GallerixSite"
+const BASE_REST_URL = "https://my-json-server.typicode.com/insiderser/domino-pizza"
 
 class Client {
 
