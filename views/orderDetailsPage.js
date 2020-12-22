@@ -6,8 +6,8 @@ import {parseElementFromString} from "../parser.js"
  */
 const view = (orderId) => parseElementFromString(`
     <div class="center-on-screen">
-        <p>Your order ${orderId} was created successfully.</p>
-        <p>Await call from our manager to confirm the order.</p>
+        <p>Thank you for the order ${orderId}.</p>
+        <p>Our manager will contact you soon</p>
     </div>
 `)
 

@@ -10,7 +10,7 @@ import productsListSection from "./productsListSection.js"
 const view = (relatedProducts, onProductClicked, onAddToCartClicked) => {
     const dom = parseElementFromString(`
         <div class="related-products-container">
-            <span class="h6">You may also like:</span>
+            <span class="h6">Another Paintings, you may also like: </span>
         </div>
     `)
 
